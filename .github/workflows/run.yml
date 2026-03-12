@@ -2,6 +2,8 @@ name: payload-dumper-actions
 
 on:
   workflow_dispatch:
+  watch:
+    types: started
 
 jobs:
   build:
